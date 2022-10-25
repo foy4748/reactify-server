@@ -1,4 +1,5 @@
 const data = require("./data.json");
+const titles = require("./titles.json");
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -8,6 +9,9 @@ const PORT = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
   res.send({ error: false, working: true, data });
+});
+app.get("/titles", (req, res) => {
+  res.send(titles);
 });
 
 app.get("/:postId", (req, res) => {
