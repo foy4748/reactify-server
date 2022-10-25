@@ -1,8 +1,32 @@
 [
-  { "id": "01", "title": "Introduction" },
-  { "id": "02", "title": "Virtual DOM" },
-  { "id": "03", "title": "JSX Element and Rendering Element" },
-  { "id": "04", "title": "Component & Props" },
-  { "id": "05", "title": "State & Lifecyle" },
-  { "id": "06", "title": "Handing Events" }
+  {
+    "id": "01",
+    "title": "Introduction",
+    "brief": "Learn how React works. The way React handles UI. React is very promising since it's also used in Web 3.0."
+  },
+  {
+    "id": "02",
+    "title": "Virtual DOM",
+    "brief": "Virtual DOM is a very fundamental concept of React. Get a good grasp of Virtual DOM is very necessary to unserstand react's work flow"
+  },
+  {
+    "id": "03",
+    "title": "JSX Element and Rendering Element",
+    "brief": "JavaScript XML, JSX provides an easy solution for creating React components and elements. It involves writing HTML like markup, but, Developer has much control over JSX"
+  },
+  {
+    "id": "04",
+    "title": "Component & Props",
+    "brief": "Components are functional or representational unit of a React frontend application. Props are the way of communication between Parent-Child component"
+  },
+  {
+    "id": "05",
+    "title": "State & Lifecyle",
+    "brief": "State refers to the variables that can be changed based on user interactions. React reacts to this state change and updates UI"
+  },
+  {
+    "id": "06",
+    "title": "Handling Events",
+    "brief": "Since, React uses Virtual DOM, it's a bit tricky to handle events in terms of React. Event handlers should be implemented properly, otherwise, the app may crash."
+  }
 ]
