@@ -2,7 +2,7 @@
   {
     "id": "01",
     "title": "Introduction",
-    "brief": "Learn how React works. The way React handles UI. React is very promising since it's also used in Web 3.0."
+    "brief": "Learn how React works. The way React handles UI. React is very promising since it's also used in Web 3.0. Easy to make UI without manipulating DOM directly."
   },
   {
     "id": "02",
