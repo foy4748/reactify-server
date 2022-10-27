@@ -17,6 +17,10 @@ app.get("/titles", (req, res) => {
 app.get("/:postId", (req, res) => {
   const { postId } = req.params;
   const post = data.find((item) => item.id == postId);
+  if (!post) {
+    res.send({ notFound: true });
+    return;
+  }
   res.send(post);
 });
 
